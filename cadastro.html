@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,7 +12,6 @@
     <link rel="stylesheet" href="./assets/css/componentes/inputs.css">
     <link rel="stylesheet" href="./assets/css/componentes/botao.css">
 </head>
-
 <body>
     <main class="container flex flex--coluna flex--centro">
         <div class="cadastro-cabecalho">
@@ -55,7 +53,7 @@
                         <span class="input-mensagem-erro">Este campo não está válido</span>
                     </div>
                     <div class="input-container">
-                        <input name="cpf" id="cpf" class="input" type="text" placeholder="CPF">
+                        <input name="cpf" id="cpf" class="input" type="text" placeholder="CPF" data-tipo="cpf" required>
                         <label class="input-label" for="cpf">CPF</label>
                         <span class="input-mensagem-erro">Este campo não está válido</span>
                     </div>
@@ -89,5 +87,4 @@
     </main>
     <script src="./js/app.js" type="module"></script>
 </body>
-
 </html>
